@@ -1,0 +1,66 @@
+*,*::after,*::before{
+    margin: 0px; padding: 0px; box-sizing: border-box;
+}
+.ac-list{
+    list-style: none;
+}
+
+.ac{
+    margin-top: 100px;
+    position: relative;
+    /* position: absolute; */
+}
+
+.ac-input{
+    font-size: 1.5rem;
+    border: none;
+    background-color: azure;
+    padding: .5em;
+    border-radius: .25em;
+    font-weight: 200;
+}
+
+.ac-input:focus{
+    outline: none;
+}
+
+.ac-list{
+    width: 100%;
+    position: absolute;
+    padding: .5em;
+}
+.ac-link{
+    
+    border-radius: .25em 0 0;
+    padding: .5em;
+    background-color: beige;
+    user-select: none;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.342);
+    text-transform: capitalize;
+    color: rgba(128, 128, 128, 0.418);
+}
+.ac-link:hover{
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+header{
+    padding: 1em;
+    border-bottom: 2px solid beige;
+}
+header h1{
+    font-family: sans-sefi;
+    text-align: center;
+    font-weight: 300;
+    color:rgba(57, 238, 238, 0.836);
+}
+
+body{
+    height: 100vh;
+    /* justify-content: space-around; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
